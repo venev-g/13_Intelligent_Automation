@@ -10,7 +10,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 
 # Directly set the API key
-api_key = "AIzaSyDoR10wPWSnCCLXHZWWrlrAg7XCXFzzpx8"  # Replace with your actual Google API key
+api_key = ""  # Replace with your actual Google API key
 
 # Configure the API key
 genai.configure(api_key=api_key)
